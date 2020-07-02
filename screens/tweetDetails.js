@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import moment from "moment";
 import * as Expo from "expo";
 import Modal from "react-native-modalbox";
-import Dimensions from "Dimensions";
+// import Dimensions from "Dimensions";
 import {
   StyleSheet,
   View,
@@ -78,7 +78,7 @@ const styles = StyleSheet.create({
     fetchedTweetReplies: store.tweets.fetchedTweetReplies
   };
 })
-export default class TweetDefailsScreen extends Component {
+export default class TweetDetailsScreen extends Component {
   constructor(props) {
     super(props);
     this.tweet = this.props.navigation.state.params;

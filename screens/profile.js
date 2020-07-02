@@ -139,7 +139,7 @@ const styles = StyleSheet.create({
     username: store.login.username
   };
 })
-export default class ProfileScreen extends Component {
+export default class Profile extends Component {
   constructor(props) {
     super(props);
     this.user = this.props.navigation.state.params;

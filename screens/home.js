@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import * as Expo from "expo";
 import Modal from "react-native-modalbox";
-import Dimensions from "Dimensions";
+// import Dimensions from "Dimensions";
 import {
   StyleSheet,
   View,
@@ -113,7 +113,7 @@ const styles = StyleSheet.create({
     newTweetModalOpen: store.tweets.newTweetModalOpen
   };
 })
-export default class HomeScreen extends Component {
+export default class Home extends Component {
   constructor(props) {
     super(props);
     this.state = {
