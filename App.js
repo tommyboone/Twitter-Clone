@@ -9,8 +9,7 @@ import LoginScreen from "./screens/login";
 import HomeScreen from "./screens/home";
 import ProfileScreen from "./screens/profile";
 import TweetDetailsScreen from "./screens/tweetDetails";
-import { Root } from "native-base";
-
+import { Root } from "native-base"; 
 import { Provider } from "react-redux";
 import store from "./store";
 import "regenerator-runtime/runtime";
