@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@expo/vector-icons": "^10.0.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "color": "^2.0.0",
     "dimensions": "^0.1.0",
     "expo": "^38.0.0",
